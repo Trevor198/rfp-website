@@ -1,111 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sam RFP Services</title>
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans leading-normal text-gray-800">
-  <!-- Header styled like Chase Bank -->
-  <header class="bg-blue-900 text-white">
+<body class="bg-blue-950 text-white font-sans leading-relaxed">
+  <!-- Global Header -->
+  <header class="bg-blue-900">
     <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-8 text-sm font-medium">
-        <a href="#services" class="hover:text-gray-300">Services</a>
-        <a href="#testimonials" class="hover:text-gray-300">Testimonials</a>
-        <a href="#contact" class="hover:text-gray-300">Get Started</a>
+      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
+      <nav class="space-x-6 text-sm font-medium uppercase">
+        <a href="index.html" class="hover:text-gray-300">Home</a>
+        <a href="about.html" class="hover:text-gray-300">About Us</a>
+        <a href="who-we-are.html" class="hover:text-gray-300">Who We Are</a>
+        <a href="services.html" class="hover:text-gray-300">Services</a>
+        <a href="team.html" class="hover:text-gray-300">Team</a>
+        <a href="testimonials.html" class="hover:text-gray-300">Testimonials</a>
+        <a href="contact.html" class="hover:text-gray-300">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="bg-blue-800 text-white">
-    <div class="container mx-auto px-6 py-20 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Professional RFP Writing Services</h1>
-      <p class="text-lg md:text-xl mb-8">Expert proposals to help you win big contracts. Flat rate: <span class="font-semibold">$2,000/RFP</span></p>
-      <a href="#contact" class="bg-white text-blue-800 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">Schedule Appointment</a>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Our Services</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
-        <h3 class="text-xl font-semibold text-blue-800 mb-3">RFP Strategy</h3>
-        <p class="text-gray-700">In-depth analysis of requirements and competitive positioning to set you apart.</p>
-      </div>
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
-        <h3 class="text-xl font-semibold text-blue-800 mb-3">Compelling Proposals</h3>
-        <p class="text-gray-700">Clear, persuasive content that showcases your strengths and expertise.</p>
-      </div>
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
-        <h3 class="text-xl font-semibold text-blue-800 mb-3">On-Time Delivery</h3>
-        <p class="text-gray-700">Reliable submission timelines to ensure you never miss a deadline.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="bg-gray-100 py-16">
-    <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">What Our Clients Say</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-lg shadow p-6">
-          <p class="italic text-gray-800 mb-4">“Sam’s RFP process overhaul secured us a $1M contract. Highly recommend!”</p>
-          <h4 class="font-semibold text-blue-800">— Alex J., CEO, TechCorp</h4>
-        </div>
-        <div class="bg-white rounded-lg shadow p-6">
-          <p class="italic text-gray-800 mb-4">“Professional, precise, and proactive—Sam delivered early and exceeded expectations.”</p>
-          <h4 class="font-semibold text-blue-800">— Maria L., Director, HealthPlus</h4>
-        </div>
-        <div class="bg-white rounded-lg shadow p-6">
-          <p class="italic text-gray-800 mb-4">“Our proposals have never looked better. Sam’s detail and design wowed the reviewers.”</p>
-          <h4 class="font-semibold text-blue-800">— Daniel K., Operations Manager</h4>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Form -->
-  <section id="contact" class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">Schedule an Appointment</h2>
-    <div class="max-w-lg mx-auto bg-white rounded-lg shadow p-8">
-      <form action="mailto:sam@example.com" method="post" enctype="text/plain" class="space-y-6">
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Name</label>
-          <input type="text" name="name" required class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"/>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Email</label>
-          <input type="email" name="email" required class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"/>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Preferred Date</label>
-          <input type="date" name="date" required class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"/>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Preferred Time</label>
-          <input type="time" name="time" required class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"/>
-        </div>
-        <div>
-          <label class="block text-gray-700 font-medium mb-2">Project Details</label>
-          <textarea name="message" rows="4" class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300"></textarea>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="bg-blue-800 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition">Book Appointment</button>
-        </div>
-      </form>
+  <!-- Hero Section with background image -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?luxury,architecture');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center relative z-10">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Elevate Your Proposals</h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-2xl">Crafting high-impact RFPs that win contracts. Premium service at $2,000 per proposal.</p>
+      <a href="contact.html" class="bg-gold-500 text-blue-950 font-semibold px-8 py-4 rounded shadow-lg hover:bg-gold-400 transition">Get Started</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-blue-900 text-gray-300 py-6">
-    <div class="container mx-auto px-6 text-center">
+  <footer class="bg-blue-900 py-6 mt-12">
+    <div class="container mx-auto px-6 text-center text-gray-400 text-sm">
       <p>&copy; 2025 Sam RFP Services. All rights reserved.</p>
     </div>
   </footer>
 </body>
 </html>
+
+<!--
+* This index.html uses a dark blue, luxury aesthetic with a full-screen hero image.
+* Create the following additional pages by duplicating this template and replacing the <main> section:
+  - about.html       (Business history + mission)
+  - who-we-are.html  (Company values + philosophy)
+  - services.html    (Detailed RFP offerings)
+  - team.html        (Team bios with headshots)
+  - testimonials.html (Client stories + photos)
+  - contact.html     (Appointment form)
+* Swap placeholder images from Unsplash with your branded assets.
+* Define a custom gold color in Tailwind config for the .bg-gold-500 class to enhance luxury feel.
+-->
