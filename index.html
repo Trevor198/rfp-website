@@ -4,352 +4,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam RFP Services | Home</title>
-  <!-- Tailwind CSS -->
+  <title>RFP Writing Experts | Home</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E3A8A',
+            gold: '#FFD700'
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body class="bg-blue-950 text-white font-sans leading-relaxed">
-  <!-- Global Header -->
-  <header class="bg-blue-900 fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-6 text-sm font-medium uppercase">
-        <a href="index.html" class="hover:text-gray-300">Home</a>
-        <a href="about.html" class="hover:text-gray-300">About Us</a>
-        <a href="services.html" class="hover:text-gray-300">Services</a>
-        <a href="team.html" class="hover:text-gray-300">Team</a>
-        <a href="contact.html" class="hover:text-gray-300">Contact</a>
+<body class="bg-white text-gray-900 font-sans">
+  <!-- Navigation -->
+  <header class="bg-primary text-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">RFP Writing Experts</a>
+      <nav class="space-x-6 text-sm">
+        <a href="index.html" class="hover:text-gold">Home</a>
+        <a href="about.html" class="hover:text-gold">About</a>
+        <a href="services.html" class="hover:text-gold">Services</a>
+        <a href="portal.html" class="hover:text-gold">Client Portal</a>
+        <a href="contact.html" class="hover:text-gold">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="relative h-screen bg-cover bg-center mt-16" style="background-image: url('https://source.unsplash.com/1600x900/?luxury,office');">
-    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-    <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center relative z-10">
-      <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Elevate Your Proposals</h1>
-      <p class="text-xl md:text-2xl mb-8 max-w-2xl">Crafting high-impact RFPs that win contracts. Premium service at <span class="font-semibold">$2,000 per proposal</span>.</p>
-      <a href="contact.html" class="bg-gold-500 text-blue-950 font-semibold px-8 py-4 rounded shadow-lg hover:bg-gold-400 transition">Get Started</a>
+  <!-- Hero -->
+  <section class="bg-gray-100 py-20 text-center">
+    <div class="container mx-auto px-6">
+      <h1 class="text-5xl font-bold mb-4 text-primary">Win More Contracts With Professional RFPs</h1>
+      <p class="text-lg max-w-2xl mx-auto text-gray-700 mb-6">We specialize in crafting clear, persuasive, and compliant proposals to help you secure the contracts you deserve.</p>
+      <a href="contact.html" class="bg-gold text-primary font-bold px-6 py-3 rounded hover:bg-yellow-400 transition">Schedule a Free Consultation</a>
     </div>
   </section>
 
-  <!-- Featured Services Preview -->
-  <section class="container mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-center text-gold-500 mb-8">Discover Our Core Services</h2>
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-4">RFP Strategy & Planning</h3>
-        <p class="text-gray-300">Detailed analysis of your needs and competitive landscape to position your proposal for success.</p>
-      </div>
-      <div class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-4">Customized Content Creation</h3>
-        <p class="text-gray-300">Engaging narratives, persuasive language, and clear structure to communicate your strengths.</p>
-      </div>
-      <div class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-4">Review & Quality Assurance</h3>
-        <p class="text-gray-300">Rigorous edits and compliance checks to ensure flawless, on-time submissions.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Choose Us -->
-  <section class="bg-blue-900 py-16">
+  <!-- Features -->
+  <section class="py-16 bg-white">
     <div class="container mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-gold-500 mb-6">Why Choose Sam RFP Services?</h2>
-      <ul class="space-y-4 text-gray-300">
-        <li>✔️ Over <strong>100</strong> successful RFPs delivered across industries.</li>
-        <li>✔️ <strong>24/7</strong> support with dedicated account management.</li>
-        <li>✔️ Proven track record: <strong>85%</strong> win rate on submitted proposals.</li>
-      </ul>
+      <h2 class="text-3xl font-bold text-primary mb-12">Our Capabilities</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="p-6 bg-gray-100 rounded shadow">
+          <h3 class="text-xl font-semibold mb-3">Full Proposal Development</h3>
+          <p>From discovery to submission, we manage the entire RFP process with precision.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded shadow">
+          <h3 class="text-xl font-semibold mb-3">Proposal Editing & Design</h3>
+          <p>We refine your language, format your documents, and produce branded proposals.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded shadow">
+          <h3 class="text-xl font-semibold mb-3">Client Portal Access</h3>
+          <p>Log in securely to manage tasks, track proposal status, and share files with our team.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Latest Insights -->
-  <section class="container mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-center text-gold-500 mb-12">Latest Insights & Resources</h2>
-    <div class="grid md:grid-cols-2 gap-8">
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold text-gold-500 mb-3">5 Tips to Win Federal RFPs</h3>
-        <p class="text-gray-300">Discover actionable strategies to enhance your proposal compliance and clarity.</p>
-        <a href="#" class="text-gold-500 hover:underline mt-4 inline-block">Read More →</a>
-      </article>
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold text-gold-500 mb-3">Understanding Evaluation Criteria</h3>
-        <p class="text-gray-300">A deep dive into scoring methodologies and how to optimize your responses.</p>
-        <a href="#" class="text-gold-500 hover:underline mt-4 inline-block">Read More →</a>
-      </article>
+  <!-- Testimonials -->
+  <section class="bg-primary text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">What Clients Are Saying</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <blockquote class="bg-white text-gray-800 p-6 rounded shadow">
+          <p>"We won our largest federal contract thanks to this team. Exceptional service from start to finish."</p>
+          <footer class="mt-4 font-bold">— Jessica T., Tech Consulting Inc.</footer>
+        </blockquote>
+        <blockquote class="bg-white text-gray-800 p-6 rounded shadow">
+          <p>"Professional, prompt, and powerful writing. Their team made the process seamless."</p>
+          <footer class="mt-4 font-bold">— Mark R., Logistics Solutions</footer>
+        </blockquote>
+        <blockquote class="bg-white text-gray-800 p-6 rounded shadow">
+          <p>"The portal made collaboration easy and clear. We never missed a deadline."</p>
+          <footer class="mt-4 font-bold">— Carla M., City Gov Solutions</footer>
+        </blockquote>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-blue-900 py-8">
-    <div class="container mx-auto px-6 text-center text-gray-400 text-sm">
-      <p>&copy; 2025 Sam RFP Services. All rights reserved.</p>
-      <p>Designed with luxury and precision.</p>
+  <footer class="bg-gray-100 py-6 mt-12 text-center text-gray-600 text-sm">
+    <div class="container mx-auto px-6">
+      &copy; 2025 RFP Writing Experts. All rights reserved.
     </div>
   </footer>
 </body>
 </html>
 
+<!-- To complete this 5-page site:
+  1. Duplicate this file and rename:
+     - about.html
+     - services.html
+     - portal.html
+     - contact.html
 
-<!-- File: about.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam RFP Services | About Us</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-blue-950 text-white font-sans leading-relaxed">
-  <header class="bg-blue-900 fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-6 text-sm font-medium uppercase">
-        <a href="index.html" class="hover:text-gray-300">Home</a>
-        <a href="about.html" class="hover:text-gray-300">About Us</a>
-        <a href="services.html" class="hover:text-gray-300">Services</a>
-        <a href="team.html" class="hover:text-gray-300">Team</a>
-        <a href="contact.html" class="hover:text-gray-300">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="mt-20 container mx-auto px-6 py-12">
-    <h1 class="text-4xl font-bold text-gold-500 mb-6">About Sam RFP Services</h1>
-    <p class="text-gray-300 mb-4">Founded in 2020, Sam RFP Services has rapidly become a leader in proposal writing and consulting. Our mission is to empower organizations of all sizes to compete effectively in the procurement process.</p>
-    <p class="text-gray-300 mb-8">With a team of seasoned writers, analysts, and project managers, we deliver tailored, high-quality RFPs that highlight your unique value propositions.</p>
-    <section class="grid md:grid-cols-2 gap-8 mb-12">
-      <div class="bg-blue-900 rounded-lg shadow p-6">
-        <h2 class="text-2xl font-semibold mb-3">Our Mission</h2>
-        <p class="text-gray-300">To craft winning proposals that reflect your brand’s excellence and maximize funding opportunities.</p>
-      </div>
-      <div class="bg-blue-900 rounded-lg shadow p-6">
-        <h2 class="text-2xl font-semibold mb-3">Our Vision</h2>
-        <p class="text-gray-300">To set the industry standard for proposal quality, client service, and measurable success.</p>
-      </div>
-    </section>
-
-    <section class="bg-blue-900 rounded-lg shadow p-6">
-      <h2 class="text-2xl font-semibold text-gold-500 mb-4">Our Journey</h2>
-      <ul class="list-disc list-inside text-gray-300 space-y-2">
-        <li><strong>2020:</strong> Founded by Sam Johnson, former procurement director.</li>
-        <li><strong>2021:</strong> Reached 50 completed proposals with a 75% win rate.</li>
-        <li><strong>2022:</strong> Expanded team to 10 professionals across writing, strategy, and design.</li>
-        <li><strong>2023:</strong> Achieved 100+ delivered proposals and international clients.</li>
-        <li><strong>2024:</strong> Secured partnerships with major government and private entities.</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="bg-blue-900 py-6 mt-12 text-center text-gray-400 text-sm">
-    &copy; 2025 Sam RFP Services. All rights reserved.
-  </footer>
-</body>
-</html>
-
-
-<!-- File: services.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam RFP Services | Services</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-blue-950 text-white font-sans leading-relaxed">
-  <header class="bg-blue-900 fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-6 text-sm font-medium uppercase">
-        <a href="index.html" class="hover:text-gray-300">Home</a>
-        <a href="about.html" class="hover:text-gray-300">About Us</a>
-        <a href="services.html" class="hover:text-gray-300">Services</a>
-        <a href="team.html" class="hover:text-gray-300">Team</a>
-        <a href="contact.html" class="hover:text-gray-300">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="mt-20 container mx-auto px-6 py-12">
-    <h1 class="text-4xl font-bold text-gold-500 mb-6">Our Service Offerings</h1>
-    <section class="space-y-8 mb-12">
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h2 class="text-2xl font-semibold mb-3">Full RFP Management</h2>
-        <p class="text-gray-300 mb-2">From opportunity assessment to final submission, we manage every detail:</p>
-        <ul class="list-disc list-inside text-gray-300 ml-4">
-          <li>Requirement Gathering & Clarification</li>
-          <li>Timeline & Resource Planning</li>
-          <li>Writing, Formatting, & Design</li>
-          <li>Review, Editing & Compliance Check</li>
-        </ul>
-      </article>
-
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h2 class="text-2xl font-semibold mb-3">Executive Summaries & Messaging</h2>
-        <p class="text-gray-300 mb-2">Craft compelling executive summaries and key messaging frameworks that resonate with evaluators.</p>
-      </article>
-
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h2 class="text-2xl font-semibold mb-3">Graphics & Visual Enhancements</h2>
-        <p class="text-gray-300 mb-2">Professional charts, infographics, and layout design to strengthen your proposal narrative.</p>
-      </article>
-
-      <article class="bg-blue-900 rounded-lg shadow p-6 hover:shadow-lg transition">
-        <h2 class="text-2xl font-semibold mb-3">Compliance Reviews</h2>
-        <p class="text-gray-300 mb-2">Detailed compliance audits against RFP requirements to mitigate risk and ensure full adherence.</p>
-      </article>
-    </section>
-
-    <section class="bg-blue-900 rounded-lg p-6 shadow">
-      <h2 class="text-2xl font-semibold text-gold-500 mb-4">Custom Packages</h2>
-      <table class="w-full text-gray-300">
-        <thead>
-          <tr>
-            <th class="p-3 text-left">Package</th>
-            <th class="p-3 text-left">Description</th>
-            <th class="p-3 text-left">Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="bg-blue-800">
-            <td class="p-3">Standard</td>
-            <td class="p-3">Basic RFP write-up & formatting</td>
-            <td class="p-3">$2,000</td>
-          </tr>
-          <tr class="bg-blue-900">
-            <td class="p-3">Professional</td>
-            <td class="p-3">Includes executive summary & infographics</td>
-            <td class="p-3">$3,500</td>
-          </tr>
-          <tr class="bg-blue-800"> 
-            <td class="p-3">Premium</td>
-            <td class="p-3">Full management + compliance review + 2 revisions</td>
-            <td class="p-3">$5,000</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
-
-  <footer class="bg-blue-900 py-6 mt-12 text-center text-gray-400 text-sm">
-    &copy; 2025 Sam RFP Services. All rights reserved.
-  </footer>
-</body>
-</html>
-
-
-<!-- File: team.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam RFP Services | Team</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-blue-950 text-white font-sans leading-relaxed">
-  <header class="bg-blue-900 fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-6 text-sm font-medium uppercase">
-        <a href="index.html" class="hover:text-gray-300">Home</a>
-        <a href="about.html" class="hover:text-gray-300">About Us</a>
-        <a href="services.html" class="hover:text-gray-300">Services</a>
-        <a href="team.html" class="hover:text-gray-300">Team</a>
-        <a href="contact.html" class="hover:text-gray-300">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="mt-20 container mx-auto px-6 py-12">
-    <h1 class="text-4xl font-bold text-gold-500 mb-8 text-center">Meet Our Experts</h1>
-    <div class="grid md:grid-cols-3 gap-12">
-      <div class="bg-blue-900 rounded-lg shadow p-6 text-center">
-        <img src="https://source.unsplash.com/200x200/?professional,man" alt="Sam Johnson" class="w-32 h-32 mx-auto rounded-full mb-4">
-        <h2 class="text-xl font-semibold mb-2">Sam Johnson</h2>
-        <p class="text-gray-300 mb-2">Founder & Lead Strategist</p>
-        <p class="text-gray-400 text-sm">10+ years in federal procurement, driving award-winning proposals.</p>
-      </div>
-      <div class="bg-blue-900 rounded-lg shadow p-6 text-center">
-        <img src="https://source.unsplash.com/200x200/?professional,woman" alt="Alexandra Lee" class="w-32 h-32 mx-auto rounded-full mb-4">
-        <h2 class="text-xl font-semibold mb-2">Alexandra Lee</h2>
-        <p class="text-gray-300 mb-2">Senior Proposal Writer</p>
-        <p class="text-gray-400 text-sm">Expert in healthcare and technology sector RFPs, with a 90% win rate.</p>
-      </div>
-      <div class="bg-blue-900 rounded-lg shadow p-6 text-center">
-        <img src="https://source.unsplash.com/200x200/?professional,woman" alt="Michael Chen" class="w-32 h-32 mx-auto rounded-full mb-4">
-        <h2 class="text-xl font-semibold mb-2">Michael Chen</h2>
-        <p class="text-gray-300 mb-2">Compliance Officer</p>
-        <p class="text-gray-400 text-sm">Ensures every proposal meets strict government and industry standards.</p>
-      </div>
-    </div>
-  </main>
-
-  <footer class="bg-blue-900 py-6 mt-12 text-center text-gray-400 text-sm">
-    &copy; 2025 Sam RFP Services. All rights reserved.
-  </footer>
-</body>
-</html>
-
-
-<!-- File: contact.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sam RFP Services | Contact</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-blue-950 text-white font-sans leading-relaxed">
-  <header class="bg-blue-900 fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold tracking-wide">Sam RFP Services</a>
-      <nav class="space-x-6 text-sm font-medium uppercase">
-        <a href="index.html" class="hover:text-gray-300">Home</a>
-        <a href="about.html" class="hover:text-gray-300">About Us</a>
-        <a href="services.html" class="hover:text-gray-300">Services</a>
-        <a href="team.html" class="hover:text-gray-300">Team</a>
-        <a href="contact.html" class="hover:text-gray-300">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="mt-20 container mx-auto px-6 py-12 max-w-lg">
-    <h1 class="text-4xl font-bold text-gold-500 mb-6 text-center">Get in Touch</h1>
-    <form action="mailto:sam@example.com" method="post" enctype="text/plain" class="bg-blue-900 rounded-lg shadow p-6 space-y-6">
-      <div>
-        <label class="block text-gray-300 mb-2 font-medium">Full Name</label>
-        <input type="text" name="name" required class="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500 text-blue-950" />
-      </div>
-      <div>
-        <label class="block text-gray-300 mb-2 font-medium">Email Address</label>
-        <input type="email" name="email" required class="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500 text-blue-950" />
-      </div>
-      <div>
-        <label class="block text-gray-300 mb-2 font-medium">Phone Number</label>
-        <input type="tel" name="phone" class="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500 text-blue-950" />
-      </div>
-      <div>
-        <label class="block text-gray-300 mb-2 font-medium">Brief Project Description</label>
-        <textarea name="message" rows="4" class="w-full border border-gray-700 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500 text-blue-950"></textarea>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="bg-gold-500 text-blue-950 font-semibold px-6 py-3 rounded hover:bg-gold-400 transition">Submit Inquiry</button>
-      </div>
-    </form>
-
-    <section class="mt-12 text-center">
-      <h2 class="text-2xl font-semibold text-gold-500 mb-4">Office Location</h2>
-      <p class="text-gray-300">123 Luxury Lane, Suite 500<br>Denver, CO 80202</p>
-      <p class="text-gray-300 mt-2">Mon – Fri: 8am – 6pm</p>
-    </section>
-  </main>
-
-  <footer class="bg-blue-900 py-6 mt-12 text-center text-gray-400 text-sm">
-    &copy; 2025 Sam RFP Services. All rights reserved.
-  </footer>
-</body>
-</html>
+  2. Fill each with detailed content:
+     - about.html: Company mission, team history, impact
+     - services.html: Break down packages, timelines, pricing
+     - portal.html: Add login form (email/password), dashboard preview, file upload area (mocked)
+     - contact.html: Form with fields (name, email, phone, preferred date/time, message)
+     - Include form action to backend or mail service for form processing
+-->
